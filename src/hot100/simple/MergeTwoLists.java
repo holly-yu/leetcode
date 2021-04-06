@@ -1,4 +1,4 @@
-package simple;
+package hot100.simple;
 
 class ListNode{
     int val;

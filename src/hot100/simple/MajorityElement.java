@@ -1,4 +1,4 @@
-package simple;
+package hot100.simple;
 
 import java.util.HashMap;
 import java.util.Map;
