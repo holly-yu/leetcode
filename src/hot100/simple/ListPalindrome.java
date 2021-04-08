@@ -1,5 +1,23 @@
 package hot100.simple;
 
+/*
+* 234. 回文链表
+*
+* 请判断一个链表是否为回文链表。
+
+示例 1:
+
+输入: 1->2
+输出: false
+示例 2:
+
+输入: 1->2->2->1
+输出: true
+进阶：
+你能否用 O(n) 时间复杂度和 O(1) 空间复杂度解决此题？
+
+* */
+
 public class ListPalindrome {
     public boolean isPalindrome(ListNode head) {
         // 思路：首先遍历链表得到链表长度，然后把链表的前一半反转，最后把链表前一半和后一半逐个进行比较。
@@ -34,8 +52,6 @@ public class ListPalindrome {
             }
             l1 = a;
             l2 = b;
-            System.out.println(l1.val);
-            System.out.println(l2.val);
         }
 
         while( l1 != null && l2 != null){

@@ -1,5 +1,12 @@
 package hot100.simple;
 
+/*
+* 21. 合并两个有序链表
+* 将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
+* 输入：l1 = [1,2,4], l2 = [1,3,4]
+* 输出：[1,1,2,3,4,4]
+* */
+
 class ListNode{
     int val;
     ListNode next;
@@ -9,6 +16,7 @@ class ListNode{
 }
 
 public class MergeTwoLists {
+    // 每次把指针指向未排序节点中最小的两个中的较小节点（把这个节点加入新合并链表）
     public ListNode mergeTwoLists(ListNode l1, ListNode l2){
         if (l1 == null && l2 == null){
             return null;
