@@ -6,6 +6,8 @@
 package 剑指Offer.递归;
 
 public class Frog {
+    // 其实本题就是斐波那契数列
+
     // 第一种办法：最后一次跳台阶有可能是一次跳上1级，也可能是跳上2级台阶。把所有办法分为这两种，f(n-1) + f(n-2)
     // 时间复杂度为O(2^n)
     public int numWays(int n){
@@ -22,7 +24,7 @@ public class Frog {
     final int mod=1000000007;
     private int[] F=new int[105];
     public int numWays2(int n) {
-        if(F[n]!=0)
+        if(F[n]!=0)       // 计算过的就直接取
             return F[n];
         if(n==1 || n==0 )
             return F[n]=1;
