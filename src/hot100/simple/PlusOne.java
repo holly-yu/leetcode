@@ -71,4 +71,17 @@ public class PlusOne {
         }
         return plus;
     }
+
+    // 非常巧的办法
+    public int[] plusOne2(int[] digits) {
+        for (int i = digits.length - 1; i >= 0; i--) {
+            digits[i]++;
+            digits[i] = digits[i] % 10;  // 如果为10，则返回0，否则返回本身
+            if (digits[i] != 0) return digits;  // 如果不需要进位，则前边的数就不需要继续计算了。
+        }
+        digits = new int[digits.length + 1];    // 循环进行完说明每个数位都是9
+        digits[0] = 1;
+        return digits;
+    }
+
 }
