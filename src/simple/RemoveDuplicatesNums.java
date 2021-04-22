@@ -1,4 +1,4 @@
-package hot100.simple;
+package simple;
 
 /**
  * 26. 删除有序数组中的重复项

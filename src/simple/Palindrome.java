@@ -1,4 +1,4 @@
-package hot100.simple;
+package simple;
 
 import java.util.Stack;
 
