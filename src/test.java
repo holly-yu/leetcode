@@ -17,5 +17,7 @@ public class test {
                 System.out.println(node);
             }
         }
+        System.out.println(Integer.MIN_VALUE);
+
     }
 }
