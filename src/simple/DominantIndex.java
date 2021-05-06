@@ -24,6 +24,8 @@ package simple;
 public class DominantIndex {
     /**
      * 找出第一大和第二大的数，然后比较。
+     *
+     * 或者循环第一遍找出最大的数，循环第二遍如果遇到超过它1/2的数就返回-1。
      * */
     public int dominantIndex(int[] nums) {
         int first = -1, second = -1;
