@@ -1,15 +1,12 @@
-import java.util.*;
+
 
 public class test3 {
     public static void main(String[] args) {
-        Deque<Integer> deque = new LinkedList<>();
-        deque.add(2);
-        deque.add(3);
-        System.out.println(deque.remove());
-        Map<Integer,Integer> map = new HashMap<>();
-        map.put(1,1);
-        map.replace(1,map.get(1),map.get(1)+1);
-        System.out.println(map.get(1));
+        String s = "abc";
+        System.out.println(s.length());
+        String[] strs = new String[]{"flower","flow","flight"};
+        System.out.println(strs.length);
+        System.out.println(strs[0].substring(0,2));
     }
 
 
