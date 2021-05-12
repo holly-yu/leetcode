@@ -12,6 +12,8 @@ public class test3 {
         System.out.println(map.get(1));
         String s = "";
         System.out.println(s=="");
+        int[] res = {1,2};
+        System.out.println(res[0]);
     }
 
 
