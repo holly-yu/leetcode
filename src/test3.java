@@ -10,6 +10,8 @@ public class test3 {
         map.put(1,1);
         map.replace(1,map.get(1),map.get(1)+1);
         System.out.println(map.get(1));
+        String s = "";
+        System.out.println(s=="");
     }
 
 
