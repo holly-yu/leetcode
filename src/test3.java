@@ -14,6 +14,15 @@ public class test3 {
         System.out.println(s=="");
         int[] res = {1,2};
         System.out.println(res[0]);
+
+        List<int[]> l = new ArrayList<>();
+        l.add(new int[]{1,2});
+        l.add(new int[]{3,4});
+        l.add(new int[]{5,6});
+        int[][] arr = l.toArray(new int[l.size()][2]);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i][0]);
+        }
     }
 
 
