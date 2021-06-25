@@ -24,12 +24,17 @@ public class test3 {
 //            System.out.println(arr[i][0]);
 //        }
 
-        List<List<Integer>> lists = new ArrayList<>();
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        lists.add(list);
+//        List<List<Integer>> lists = new ArrayList<>();
+//        List<Integer> list = new ArrayList<>();
+//        list.add(1);
+//        list.add(2);
+//        list.add(3);
+//        lists.add(list);
+
+        int x = 123;
+        String str = String.valueOf(x);
+        System.out.println(str.);
+        Long.pa
     }
 
 
