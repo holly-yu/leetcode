@@ -31,10 +31,15 @@ public class test3 {
 //        list.add(3);
 //        lists.add(list);
 
-        int x = 123;
-        String str = String.valueOf(x);
-        System.out.println(str.);
-        Long.pa
+        HashMap<Integer,Integer> map = new HashMap<>();
+        map.put(1,3);
+        map.put(2,4);
+        map.
+        Queue<Integer> q;
+        q.
+        System.out.println(map.con);
+        HashSet set = new HashSet();
+        set.
     }
 
 
